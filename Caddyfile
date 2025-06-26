@@ -1,0 +1,7 @@
+https://n8n.change-me.com {
+  reverse_proxy n8n:5678
+}
+
+https://chat.change-me.com {
+  reverse_proxy openwebui:8080
+}
