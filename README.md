@@ -9,6 +9,7 @@ The all-in-one AI stack providing automation, chat interface, and web serving ca
 - 🔍 **SearXNG**: Privacy-focused metasearch engine
 - 🛡️ **Caddy**: Modern web server with automatic HTTPS
 - 🐘 **PostgreSQL**: Database for n8n
+- 📝 **Tika**: Document processing engine
 
 ## Prerequisites
 
