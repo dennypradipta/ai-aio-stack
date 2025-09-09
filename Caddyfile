@@ -1,7 +1,9 @@
-https://n8n.change-me.com {
-  reverse_proxy n8n:5678
-}
+# Uncomment if using n8n
+# https://n8n.change-me.com {
+#   reverse_proxy n8n:5678
+# }
 
-https://chat.change-me.com {
-  reverse_proxy openwebui:8080
-}
+# Uncomment if using Open WebUI
+# https://chat.change-me.com {
+#   reverse_proxy openwebui:8080
+# }

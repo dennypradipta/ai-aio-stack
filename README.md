@@ -19,13 +19,14 @@ The all-in-one AI stack providing automation, chat interface, and web serving ca
 ## Quick Start
 
 1. Clone this repository
-2. Update environment variables in `docker-compose.yml`:
+2. Uncomment services that you want to run.
+3. Update environment variables in `docker-compose.yml`:
    - All passwords (marked as "change-me")
    - Encryption keys
    - Webhook URLs
-3. Update configuration in `Caddyfile`
+4. Update configuration in `Caddyfile`
    - All domains (marked as "change-me.com")
-4. Run:
+5. Run:
 
 ```bash
 docker compose up -d
@@ -77,11 +78,10 @@ docker compose up -d
 6. Set the Tika URL to `http://tika:9998`
 
    a. Replace "tika" with the hostname of your Tika instance
-   
+
    b. Replace "9998" with the container port of your Tika instance
 
 7. Save the settings
 8. Open a new chat
 9. Upload a document (PDF, DOCX, etc.)
-10. Chat with the document 
-
+10. Chat with the document
